@@ -23,6 +23,7 @@
 !/storage/.keep
 
 /public/assets
+/public/packs
 .byebug_history
 
 # Ignore master key for decrypting credentials and more.
@@ -31,6 +32,13 @@
 # Ignore packages
 vendor
 node_modules
+
+# Ignore webpacker dist dir
+/public/packs
+/public/packs-test
+/yarn-error.log
+yarn-debug.log*
+.yarn-integrity
 
 # Ignore 
 *~
